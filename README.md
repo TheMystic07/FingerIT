@@ -2,7 +2,7 @@
 
 A nostalgic recreation of the classic MMM Fingers game, built with Unity and integrated into a modern React/Next.js web application. Navigate your finger through increasingly difficult obstacles in this addictive endless runner!
 
-![FingerIT Game](public/ss (1).png)
+
 
 ## 🎯 About the Game
 
@@ -27,7 +27,9 @@ Check out the live game at: [GitHub Pages / Your Deploy URL]
   <img src="public/ss (3).png" alt="Game Screenshot 3" width="300"/>
 </div>
 
-**Watch the gameplay video**: [ScreenRecording.mp4](public/ScreenRecording.mp4)
+**Watch the gameplay video**: 
+https://github.com/user-attachments/assets/c4240054-23aa-44fb-87b5-daf7c0c1036e
+
 
 > **Note**: Screenshots and video are located in the `public/` folder. Click the links above to view them.
 
