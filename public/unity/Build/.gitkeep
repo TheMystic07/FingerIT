@@ -1,0 +1,9 @@
+# Place your Unity WebGL build files here:
+# - [BuildName].loader.js
+# - [BuildName].data
+# - [BuildName].wasm
+# - [BuildName].framework.js
+#
+# Then update the paths in src/views/home/index.tsx
+# Replace [BuildName] with your actual build name
+

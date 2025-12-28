@@ -1,0 +1,13 @@
+# Unity WebGL Build Files - Track with Git LFS
+public/unity/Build/*.wasm filter=lfs diff=lfs merge=lfs -text
+public/unity/Build/*.data filter=lfs diff=lfs merge=lfs -text
+public/unity/Build/*.js filter=lfs diff=lfs merge=lfs -text
+public/unity/Build/*.br filter=lfs diff=lfs merge=lfs -text
+public/unity/Build/*.gz filter=lfs diff=lfs merge=lfs -text
+# Unity Template Data (if any large files)
+public/unity/TemplateData/*.png filter=lfs diff=lfs merge=lfs -text
+public/unity/TemplateData/*.jpg filter=lfs diff=lfs merge=lfs -text
+public/unity/TemplateData/*.jpeg filter=lfs diff=lfs merge=lfs -text
+# Other large binary files
+*.wasm filter=lfs diff=lfs merge=lfs -text
+*.data filter=lfs diff=lfs merge=lfs -text
