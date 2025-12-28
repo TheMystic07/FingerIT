@@ -90,17 +90,25 @@ const GameSandbox: FC = () => {
       {/* Loading Screen */}
       {isLoading && !hasError && (
         <div className="absolute inset-0 z-10 flex flex-col items-center justify-center bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
-          <div className="mb-4 flex flex-col items-center gap-2">
-            <div className="h-12 w-12 animate-spin rounded-full border-4 border-cyan-500/30 border-t-cyan-400 shadow-[0_0_20px_rgba(56,189,248,0.5)]"></div>
-            <p className="text-xs font-semibold text-cyan-400">Loading Game...</p>
+          {/* FINGER IT! Text */}
+          <div className="mb-6">
+            <h1 className="text-4xl font-bold text-cyan-400 animate-pulse drop-shadow-[0_0_20px_rgba(56,189,248,0.8)]">
+              FINGER IT!
+            </h1>
           </div>
-          <div className="w-48 overflow-hidden rounded-full bg-slate-800/50">
+          
+          {/* Unity Loading Bar */}
+          <div className="w-64 overflow-hidden rounded-full bg-slate-800/50 border border-cyan-500/30 shadow-[0_0_20px_rgba(56,189,248,0.4)]">
             <div
-              className="h-1.5 bg-gradient-to-r from-cyan-500 to-blue-500 transition-all duration-300 shadow-[0_0_10px_rgba(56,189,248,0.6)]"
+              className="h-3 bg-cyan-400 transition-all duration-300 shadow-[0_0_15px_rgba(56,189,248,0.8)]"
               style={{ width: `${loadingProgress}%` }}
             ></div>
           </div>
-          <p className="mt-2 text-[10px] text-slate-400">{loadingProgress}%</p>
+          
+          {/* Progress percentage */}
+          <p className="mt-3 text-sm font-semibold text-cyan-400 drop-shadow-[0_0_10px_rgba(56,189,248,0.6)]">
+            {loadingProgress}%
+          </p>
         </div>
       )}
 
